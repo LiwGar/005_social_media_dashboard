@@ -20,12 +20,22 @@
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
-### macOS ###
+### Editor directories and files ###
 # General
 .DS_Store
 .AppleDouble
 .LSOverride
 .prettierignore
+
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # Icon must end with two \r
 Icon
@@ -93,6 +103,9 @@ build/Release
 
 # Dependency directories
 node_modules/
+dist
+dist-ssr
+*.local
 jspm_packages/
 design/
 
