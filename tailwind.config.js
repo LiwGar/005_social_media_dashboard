@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
   content: [
     './index.html',
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -28,10 +29,10 @@ export default {
         },
         neutral: {
           darkTheme: {
-            veryDarkBlueBg: "hsl(230, 17%, 14%)",
             veryDarkBlueTopBg: "hsl(232, 19%, 15%)",
+            veryDarkBlueBg: "hsl(230, 17%, 14%)",
             darkDesaturatedBlueCardBg: "hsl(228, 28%, 20%)",
-            desaturatedBlue: "hsl(228, 34%, 66%)",
+            desaturatedBlueText: "hsl(228, 34%, 66%)",
           },
           lightTheme: {
             veryPaleBlueTopBg: "hsl(225, 100%, 98%)",
