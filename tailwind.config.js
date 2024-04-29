@@ -19,10 +19,9 @@ export default {
           brightRed: "hsl(356, 69%, 56%)",
           white: "hsl(0, 0%, 100%)",
         
-          Facebook: "hsl(208, 92%, 53%)",
-          Twitter: "hsl(203, 89%, 53%)",
-          Instagram: "linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%)",
-          YouTube: "hsl(348, 97%, 39%)",
+          facebook: "hsl(208, 92%, 53%)",
+          twitter: "hsl(203, 89%, 53%)",
+          youTube: "hsl(348, 97%, 39%)",
         },
         lightTheme: {
           toggle: "hsl(230, 22%, 74%)",
@@ -44,7 +43,7 @@ export default {
       },
       backgroundImage: {
         toggleGradient: "linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))",
-        instagram: "linear gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%))",
+        instagramGradient: "linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%))",
       },
     },
   },

@@ -19,11 +19,17 @@ const Header = () => {
   return (
   
     <header className="wrapper pt-10 px-6 h-[16rem] bg-neutral-lightTheme-veryPaleBlueTopBg font-bold rounded-b-[1.25rem] dark:bg-neutral-darkTheme-veryDarkBlueTopBg">
+
       <h1 className="text-[1.7rem] leading-[1.5rem] text-neutral-lightTheme-veryDarkBlueText dark:text-primary-white">Social Media Dashboard</h1>
+
       <p className="mt-2 mb-6 text-neutral-lightTheme-darkGrayishBlueText dark:text-neutral-darkTheme-desaturatedBlueText">Total Followers: 23,004</p>
-      <hr className="mb-[1.2rem] bg-neutral-lightTheme-veryDarkBlueText"/>
+
+      <hr className="mb-[1.2rem] bg-neutral-lightTheme-veryDarkBlueText 
+      dark:bg-neutral-darkTheme-desaturatedBlueText"/>
+
       <div className="flex justify-between">
         <p className="text-neutral-lightTheme-darkGrayishBlueText dark:text-neutral-darkTheme-desaturatedBlueText">Dark Mode</p>
+        
         <label htmlFor="dark_mode" className="relative p-[0.2rem] w-[3.2rem] h-[1.6rem] bg-lightTheme-toggle rounded-full cursor-pointer peer-checked:bg-darkTheme-toggle">
 
           <input 
@@ -44,7 +50,4 @@ const Header = () => {
 
 export default Header;
 
-/**4:52:11 
- * 
 
-*/
