@@ -18,7 +18,7 @@ const Header = () => {
 
   return (
   
-    <header className="wrapper pt-10 px-6 h-[15rem] bg-neutral-lightTheme-veryPaleBlueTopBg font-bold rounded-b-[1.25rem] dark:bg-neutral-darkTheme-veryDarkBlueTopBg">
+    <header className="wrapper pt-10 px-6 h-[16rem] bg-neutral-lightTheme-veryPaleBlueTopBg font-bold rounded-b-[1.25rem] dark:bg-neutral-darkTheme-veryDarkBlueTopBg">
       <h1 className="text-[1.7rem] leading-[1.5rem] text-neutral-lightTheme-veryDarkBlueText dark:text-primary-white">Social Media Dashboard</h1>
       <p className="mt-2 mb-6 text-neutral-lightTheme-darkGrayishBlueText dark:text-neutral-darkTheme-desaturatedBlueText">Total Followers: 23,004</p>
       <hr className="mb-[1.2rem] bg-neutral-lightTheme-veryDarkBlueText"/>
@@ -44,7 +44,7 @@ const Header = () => {
 
 export default Header;
 
-/**4:11:11 
+/**4:52:11 
  * 
- * dark:bg-neutral-darkTheme-veryDarkBlueTopBg
+
 */
