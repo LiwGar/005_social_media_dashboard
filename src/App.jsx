@@ -1,5 +1,5 @@
 import  Header  from "./components/Header";
-import CardsContainer from "./components/CardsContainer";
+import CardsContainer from "./components/FollowersCards/CardsContainer";
 
 
 function App() {

@@ -22,7 +22,7 @@ const socialNetworkColors = {
 const FollowerCard = ({user, audience, audienceType, today, socialNetwork, isUp}) => {
   
   return (
-    <article className="wrapper w-[88%] h-[13.5rem] mb-6 bg-neutral-lightTheme-lightGrayishBlueCardBg text-center rounded-b-md">
+    <article className="wrapper w-[88%] h-[13.5rem] mb-6 bg-neutral-lightTheme-lightGrayishBlueCardBg text-center rounded-b-md dark:bg-neutral-darkTheme-darkDesaturatedBlueCardBg hover:brightness-(1) hover:dark:brightness-[130%] cursor-pointer">
       <div className={`${socialNetworkColors[socialNetwork]} h-[0.3rem] mb-8 rounded-t-xl`}></div>
 
       <div className="flex items-center place-content-center mb-[1.28rem] gap-2">
@@ -33,17 +33,17 @@ const FollowerCard = ({user, audience, audienceType, today, socialNetwork, isUp}
         />
 
         <p 
-          className="text-neutral-lightTheme-darkGrayishBlueText text-xs font-bold">
+          className="text-neutral-lightTheme-darkGrayishBlueText text-xs font-bold dark:text-neutral-darkTheme-desaturatedBlueText">
             {user}
         </p>
 
       </div>
 
-      <p className="mb-2 text-[3.5rem] leading-[3rem] text-neutral-lightTheme-veryDarkBlueText font-bold">
+      <p className="mb-2 text-[3.5rem] leading-[3rem] text-neutral-lightTheme-veryDarkBlueText font-bold dark:text-primary-white">
         {audience}
       </p>
 
-      <p className="mb-5 text-neutral-lightTheme-darkGrayishBlueText uppercase tracking-[0.3rem] text-xs">
+      <p className="mb-5 text-neutral-lightTheme-darkGrayishBlueText uppercase tracking-[0.3rem] text-xs dark:text-neutral-darkTheme-desaturatedBlueText">
         {audienceType}
       </p>
 

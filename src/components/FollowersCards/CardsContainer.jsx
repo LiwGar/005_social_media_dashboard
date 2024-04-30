@@ -1,10 +1,10 @@
-import data from "../../backend/data.json";
-import FollowerCard from "./FollowerCard"
+import data from "../../../backend/data.json";
+import FollowerCard from "../FollowerCard"
 
 const CardsContainer = () => {
 
   return (
-    <section className="absolute top-[12.8rem] left-0 right-0">
+    <section className="absolute top-[12.6rem] left-0 right-0">
       {
         data.followersStats.map(object =>
 
@@ -17,7 +17,6 @@ const CardsContainer = () => {
             today={object.today}
             isUp={object.isUp}
           />
-
         )
       }
     </section>
@@ -25,3 +24,4 @@ const CardsContainer = () => {
 };
 
 export default CardsContainer; 
+

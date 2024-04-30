@@ -10,27 +10,26 @@ const Header = () => {
 
   useEffect(() => {
     if(darkMode) {
-      document.documentElement.classList.add('dark')
-    }else{
       document.documentElement.classList.remove('dark')
+    }else{
+      document.documentElement.classList.add('dark')
     }
   }, [darkMode]);
 
   return (
   
-    <header className="wrapper pt-10 px-6 h-[16rem] bg-neutral-lightTheme-veryPaleBlueTopBg font-bold rounded-b-[1.25rem] dark:bg-neutral-darkTheme-veryDarkBlueTopBg">
+    <header className="wrapper pt-10 px-6 h-[15.4rem] bg-neutral-lightTheme-veryPaleBlueTopBg font-bold rounded-b-[1.25rem] dark:bg-neutral-darkTheme-veryDarkBlueTopBg dark:brightness-[110%]">
 
-      <h1 className="text-[1.7rem] leading-[1.5rem] text-neutral-lightTheme-veryDarkBlueText dark:text-primary-white">Social Media Dashboard</h1>
+      <h1 className="text-[1.6rem] leading-[1.5rem] text-neutral-lightTheme-veryDarkBlueText dark:text-primary-white">Social Media Dashboard</h1>
 
-      <p className="mt-2 mb-6 text-neutral-lightTheme-darkGrayishBlueText dark:text-neutral-darkTheme-desaturatedBlueText">Total Followers: 23,004</p>
+      <p className="mt-2 mb-6 text-neutral-lightTheme-darkGrayishBlueText dark:text-neutral-darkTheme-desaturatedBlueText text-base">Total Followers: 23,004</p>
 
-      <hr className="mb-[1.2rem] bg-neutral-lightTheme-veryDarkBlueText 
-      dark:bg-neutral-darkTheme-desaturatedBlueText"/>
+      <div className="h-[0.01rem] mb-[1.2rem] bg-neutral-darkTheme-desaturatedBlueText"></div>
 
       <div className="flex justify-between">
-        <p className="text-neutral-lightTheme-darkGrayishBlueText dark:text-neutral-darkTheme-desaturatedBlueText">Dark Mode</p>
+        <p className="text-neutral-lightTheme-darkGrayishBlueText dark:text-neutral-darkTheme-desaturatedBlueText text-sm">Dark Mode</p>
         
-        <label htmlFor="dark_mode" className="relative p-[0.2rem] w-[3.2rem] h-[1.6rem] bg-lightTheme-toggle rounded-full cursor-pointer peer-checked:bg-darkTheme-toggle">
+        <label htmlFor="dark_mode" className="relative p-[0.14rem] w-[3rem] h-[1.4rem] bg-lightTheme-toggle rounded-full cursor-pointer peer-checked:bg-darkTheme-toggle">
 
           <input 
           onClick={handleClick} 
@@ -38,9 +37,10 @@ const Header = () => {
           type="checkbox" 
           className="sr-only peer"/>
 
-          <div className="absolute top-0 left-0 w-full h-full rounded-full peer-checked:bg-toggleGradient"></div>
+          <div className="absolute top-0 left-0 w-full h-full rounded-full dark:bg-toggleGradient"></div>
 
-          <div className="w-[1.15rem] h-[1.15rem] bg-primary-white rounded-full peer-checked:bg-neutral-darkTheme-darkDesaturatedBlueCardBg peer-checked:translate-x-[1.66rem] transition-all duration-300"></div>
+          <div className="absolute w-[1.13rem] h-[1.13rem] bg-neutral-darkTheme-darkDesaturatedBlueCardBg rounded-full peer-checked:bg-primary-white peer-checked:translate-x-[1.62rem] transition-all duration-300"></div>
+
         </label>
       </div>
     </header>
