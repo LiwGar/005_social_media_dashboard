@@ -1,5 +1,7 @@
 import  Header  from "./components/Header";
-import CardsContainer from "./components/FollowersCards/CardsContainer";
+import FollowersContainer from "./components/FollowerContainer";
+import DailyContainer from "./components/DailyContainer";
+
 
 
 function App() {
@@ -7,8 +9,8 @@ function App() {
   return (
     <>
       <Header />
-      <CardsContainer />
-      
+      <FollowersContainer />
+      <DailyContainer />
     </>
   )
 }

@@ -40,66 +40,66 @@
   "dailyStats": [
     {
       "id": "005",
-      "network": "Facebook",
+      "socialNetwork": "Facebook",
       "statsType": "Page Views",
       "stats": 87,
-      "porcentage": 3,
+      "percentage": 3,
       "isUp": true
     },
     {
       "id": "006",
-      "network": "Facebook",
+      "socialNetwork": "Facebook",
       "statsType": "Likes",
       "stats": 52,
-      "porcentage": 2,
+      "percentage": 2,
       "isUp": false
     },
     {
       "id": "007",
-      "network": "Instagram",
+      "socialNetwork": "Instagram",
       "statsType": "Likes",
       "stats": 5462,
-      "porcentage": 2257,
+      "percentage": 2257,
       "isUp": true
     },
     {
       "id": "008",
-      "network": "Instagram",
+      "socialNetwork": "Instagram",
       "statsType": "Profile Views",
-      "stats": 52000,
-      "porcentage": 1357,
+      "stats": "52K",
+      "percentage": 1357,
       "isUp": true
     },
     {
       "id": "009",
-      "network": "Twitter",
+      "socialNetwork": "Twitter",
       "statsType": "Retweets",
       "stats": 117,
-      "porcentage": 303,
+      "percentage": 303,
       "isUp": true
     },
     {
       "id": "010",
-      "network": "Twitter",
+      "socialNetwork": "Twitter",
       "statsType": "Likes",
       "stats": 507,
-      "porcentage": 553,
+      "percentage": 553,
       "isUp": true
     },
     {
       "id": "011",
-      "network": "YouTube",
+      "socialNetwork": "YouTube",
       "statsType": "Likes",
       "stats": 107,
-      "porcentage": 19,
+      "percentage": 19,
       "isUp": false
     },
     {
       "id": "012",
-      "network": "YouTube",
+      "socialNetwork": "YouTube",
       "statsType": "Total Views",
       "stats": 1407,
-      "porcentage": 12,
+      "percentage": 12,
       "isUp": false
     }
   ]
