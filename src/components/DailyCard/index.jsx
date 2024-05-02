@@ -17,7 +17,7 @@ const DailyCard = ({ statsType, socialNetwork, stats, percentage, isUp }) => {
     <article 
       className="w-[21.6rem] h-[8rem] mb-4 p-6 mx-auto bg-neutral-lightTheme-lightGrayishBlueCardBg 
         rounded-md dark:bg-neutral-darkTheme-darkDesaturatedBlueCardBg hover:brightness-[95%]  
-        hover:dark:brightness-[130%] cursor-pointer lg:w-[15.4rem] xl:w-[19.8rem] 2xl:w-[21.6rem]">
+        hover:dark:brightness-[130%] cursor-pointer lg:w-[15.4rem] xl:w-[17.4rem] 2xl:w-[21.6rem]">
 
       <div className="flex mb-[1.6rem] justify-between">
 

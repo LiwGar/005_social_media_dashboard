@@ -12,7 +12,7 @@ const DailyContainer = () => {
         Overview - Today
       </h1>
 
-      <div className="flex flex-wrap mx-auto lg:w-[92%] 2xl:w-full">
+      <div className="flex flex-wrap mx-auto lg:grid lg:grid-cols-4  lg:w-[92%] 2xl:w-full">
         {data.dailyStats.map((object) => (
           <DailyCard
             key={object.id}
