@@ -39,9 +39,9 @@ Users should be able to:
   <img src="./src/assets/screenShots/Macbook-Air-127.0.0.1 (1).png" width="500" height="350">
 </p>
 <p text-align="center">
-  <img src="./src/assets/screenShots/iPhone-13-(iOS-15)-127.0.0.1.png" width="190" height="350">
-  <img src="./src/assets/screenShots/iPhone-13-(iOS-15)-127.0.0.1 (1).png" width="190" height="350">
-  <img src="./src/assets/screenShots/iPhone-13-(iOS-15)-127.0.0.1 (2).png" width="190" height="350">
+  <img src="./src/assets/screenShots/iPhone-13-(iOS-15)-127.0.0.1.png" width="180" height="350">
+  <img src="./src/assets/screenShots/iPhone-13-(iOS-15)-127.0.0.1 (1).png" width="180" height="350">
+  <img src="./src/assets/screenShots/iPhone-13-(iOS-15)-127.0.0.1 (2).png" width="180" height="350">
 </p>
 
 ## My process
