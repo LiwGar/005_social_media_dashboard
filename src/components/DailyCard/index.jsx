@@ -14,9 +14,16 @@ const socialNetworkLogo = {
 
 const DailyCard = ({ statsType, socialNetwork, stats, percentage, isUp }) => {
   return (
-    <article className="wrapper w-[88%] h-[8rem] mb-4 p-6 bg-neutral-lightTheme-lightGrayishBlueCardBg rounded-md dark:bg-neutral-darkTheme-darkDesaturatedBlueCardBg hover:brightness-(1) hover:dark:brightness-[130%] cursor-pointer">
+    <article 
+      className="w-[21.6rem] h-[8rem] mb-4 p-6 mx-auto bg-neutral-lightTheme-lightGrayishBlueCardBg 
+        rounded-md dark:bg-neutral-darkTheme-darkDesaturatedBlueCardBg hover:brightness-[95%]  
+        hover:dark:brightness-[130%] cursor-pointer lg:w-[15.4rem] xl:w-[19.8rem] 2xl:w-[21.6rem]">
+
       <div className="flex mb-[1.6rem] justify-between">
-        <p className="text-neutral-lightTheme-darkGrayishBlueText text-sm font-bold dark:text-neutral-darkTheme-desaturatedBlueText">
+
+        <p 
+          className="text-neutral-lightTheme-darkGrayishBlueText text-sm font-bold 
+          dark:text-neutral-darkTheme-desaturatedBlueText">
           {statsType}
         </p>
         <img
@@ -26,7 +33,9 @@ const DailyCard = ({ statsType, socialNetwork, stats, percentage, isUp }) => {
       </div>
 
       <div className="flex justify-between">
-        <p className="mb-2 text-[2.2rem] leading-[1.5rem] text-neutral-lightTheme-veryDarkBlueText font-bold dark:text-primary-white">
+        <p 
+          className="mb-2 text-[2.2rem] leading-[1.5rem] text-neutral-lightTheme-veryDarkBlueText 
+            font-bold dark:text-primary-white">
           {stats}
         </p>
 

@@ -29,9 +29,9 @@ const FollowerCard = ({
 }) => {
   return (
     <article 
-      className="wrapper w-[88%] h-[13.5rem] mb-6 bg-neutral-lightTheme-lightGrayishBlueCardBg 
+      className="wrapper w-[21.6rem] h-[13.5rem] mb-6 bg-neutral-lightTheme-lightGrayishBlueCardBg 
         text-center rounded-b-md dark:bg-neutral-darkTheme-darkDesaturatedBlueCardBg 
-        hover:brightness-(1) hover:dark:brightness-[130%] cursor-pointer">
+        hover:brightness-[95%] hover:dark:brightness-[130%] cursor-pointer">
 
       <div
         className={`${socialNetworkColors[socialNetwork]} h-[0.3rem] mb-8 rounded-t-xl`}
