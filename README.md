@@ -77,5 +77,9 @@ The objective is:
 
 ## Solution
 
+I've just completed a front-end coding challenge from @frontendmentor! 🎉
 
+You can see my solution here: https://www.frontendmentor.io/solutions/social-media-dashboard-using-reactjs-and-tailwindcss--Czb2vv9rA
+
+Any suggestions on how I can improve are welcome!
 
